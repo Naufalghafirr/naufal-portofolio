@@ -16,7 +16,6 @@ function MyApp({ Component, pageProps }) {
       'assets/vendor/swiper/swiper-bundle.min.js',
       'assets/vendor/typed.js/typed.min.js',
       'assets/vendor/waypoints/noframework.waypoints.js',
-      'assets/vendor/php-email-form/validate.js',
       'assets/js/main.js'
     ];
 
@@ -64,8 +63,7 @@ function MyApp({ Component, pageProps }) {
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    
+
     {/* Template Main JS File */}
     <script src="assets/js/main.js"></script>
     </Head>

@@ -19,7 +19,7 @@ export default async function handler(req, res) {
   try {
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'naufalghafir123@gmail.com', // Replace with the recipient email
+      to: 'naufalghafir123@gmail.com',
       subject: `New Message from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     };
